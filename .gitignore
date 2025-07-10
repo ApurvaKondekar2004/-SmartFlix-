@@ -1,44 +1,20 @@
-# 📁 Virtual Environment
+# Ignore virtual environment
 venv/
-.env
-.venv/
-*.env
 
-# 📁 Jupyter Notebook Checkpoints
+# Ignore notebook checkpoints
 .ipynb_checkpoints/
 
-# 📁 Compiled Python files
-__pycache__/
-*.py[cod]
-*.so
-*.pyd
+# Ignore all CSVs by default
+*.csv
 
-# 📁 OS files
-.DS_Store
-Thumbs.db
+# Allow cleaned_data.csv to be committed
+!cleaned_data.csv
 
-# 📁 Logs
-*.log
+# Ignore IMDb & Netflix raw files
+*.tsv.gz
+netflix_titles.csv
 
-# 📁 Datasets (if not small/sample)
-data/*.csv
-data/*.tsv
-data/*.gz
 
-# 📁 Models
-models/*.pkl
-models/*.joblib
-models/*.sav
 
-# 📁 Streamlit cache
-.streamlit/
 
-# 📁 VSCode settings
-.vscode/
 
-# 📁 Mac/Linux hidden files
-*.swp
-*.swo
-
-# 🔒 Sensitive files (like API keys if you add them)
-secrets.json
