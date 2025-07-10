@@ -1,0 +1,7 @@
+pandas
+numpy
+fuzzywuzzy
+tqdm
+rapidfuzz
+seaborn 
+matplotlib
