@@ -7,14 +7,11 @@ venv/
 # Ignore all CSVs by default
 *.csv
 
-# Allow cleaned_data.csv to be committed
-!cleaned_data.csv
-
 # Ignore IMDb & Netflix raw files
 *.tsv.gz
 netflix_titles.csv
 
-
-
-
-
+# OS-specific & misc
+.DS_Store
+Thumbs.db
+*.log
