@@ -5,3 +5,7 @@ tqdm
 rapidfuzz
 seaborn 
 matplotlib
+xgboost
+scikit-learn
+imbalanced-learn
+shap
